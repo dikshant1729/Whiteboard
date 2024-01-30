@@ -6,7 +6,7 @@ canvas.height = window.innerHeight;
 
 
 
-var io = io.connect('http://localhost:8080');
+var io = io.connect('https://whiteboard-backend-c8gn.onrender.com');
 
 let ctx = canvas.getContext('2d')
 
